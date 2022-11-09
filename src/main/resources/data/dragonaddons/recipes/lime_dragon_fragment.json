@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "lnl",
+    "nln",
+    "lnl"
+  ],
+  "key": {
+    "l" : {
+      "item": "dragonaddons:lime_dragon_shard"
+    },
+    "n": {
+      "item": "dragonaddons:null_dragon_fragment"
+    }
+  },
+  "result": {
+    "item": "dragonaddons:lime_dragon_fragment"
+  }
+}

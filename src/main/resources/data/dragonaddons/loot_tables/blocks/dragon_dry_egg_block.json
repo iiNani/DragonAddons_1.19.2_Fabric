@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "dragonaddons:dragon_dry_egg_block"
+        }
+      ]
+    }
+  ]
+}

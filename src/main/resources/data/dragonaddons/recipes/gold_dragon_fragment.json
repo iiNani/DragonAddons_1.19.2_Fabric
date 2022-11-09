@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "gng",
+    "ngn",
+    "gng"
+  ],
+  "key": {
+    "g" : {
+      "item": "dragonaddons:gold_dragon_shard"
+    },
+    "n": {
+      "item": "dragonaddons:null_dragon_fragment"
+    }
+  },
+  "result": {
+    "item": "dragonaddons:gold_dragon_fragment"
+  }
+}

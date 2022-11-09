@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ono",
+    "non",
+    "ono"
+  ],
+  "key": {
+    "o" : {
+      "item": "dragonaddons:orange_dragon_shard"
+    },
+    "n": {
+      "item": "dragonaddons:null_dragon_fragment"
+    }
+  },
+  "result": {
+    "item": "dragonaddons:orange_dragon_fragment"
+  }
+}

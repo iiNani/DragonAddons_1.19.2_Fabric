@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "rnr",
+    "nrn",
+    "rnr"
+  ],
+  "key": {
+    "r" : {
+      "item": "dragonaddons:red_dragon_shard"
+    },
+    "n": {
+      "item": "dragonaddons:null_dragon_fragment"
+    }
+  },
+  "result": {
+    "item": "dragonaddons:red_dragon_fragment"
+  }
+}

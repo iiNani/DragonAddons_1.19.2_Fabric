@@ -1,0 +1,22 @@
+{
+  "itemGroup.dragonaddons.lime_dragon_fragment": "DragonAddons",
+
+  "item.dragonaddons.null_dragon_fragment": "Null Dragon Fragment",
+  "item.dragonaddons.lime_dragon_fragment": "Lime Dragon Fragment",
+  "item.dragonaddons.lime_dragon_shard": "Lime Dragon Shard",
+  "item.dragonaddons.gold_dragon_fragment": "Gold Dragon Fragment",
+  "item.dragonaddons.gold_dragon_shard": "Gold Dragon Shard",
+  "item.dragonaddons.gray_dragon_fragment": "Gray Dragon Fragment",
+  "item.dragonaddons.gray_dragon_shard": "Gray Dragon Shard",
+  "item.dragonaddons.blue_dragon_fragment": "Blue Dragon Fragment",
+  "item.dragonaddons.blue_dragon_shard": "Blue Dragon Shard",
+  "item.dragonaddons.purple_dragon_fragment": "Purple Dragon Fragment",
+  "item.dragonaddons.purple_dragon_shard": "Purple Dragon Shard",
+  "item.dragonaddons.red_dragon_fragment": "Red Dragon Fragment",
+  "item.dragonaddons.red_dragon_shard": "Red Dragon Shard",
+  "item.dragonaddons.orange_dragon_fragment": "Orange Dragon Fragment",
+  "item.dragonaddons.orange_dragon_shard": "Orange Dragon Shard",
+  "item.dragonaddons.dragon_spawn_egg": "Dragon Spawn Egg",
+
+  "block.dragonaddons.dragon_dry_egg_block": "Dragon Dry Egg Block"
+}

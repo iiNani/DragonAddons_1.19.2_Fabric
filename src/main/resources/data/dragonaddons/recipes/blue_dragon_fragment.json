@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "bnb",
+    "nbn",
+    "bnb"
+  ],
+  "key": {
+    "b" : {
+      "item": "dragonaddons:blue_dragon_shard"
+    },
+    "n": {
+      "item": "dragonaddons:null_dragon_fragment"
+    }
+  },
+  "result": {
+    "item": "dragonaddons:blue_dragon_fragment"
+  }
+}
