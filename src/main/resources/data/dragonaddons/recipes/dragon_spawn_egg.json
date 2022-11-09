@@ -1,19 +1,14 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "dw ",
-    "   ",
-    "   "
-  ],
-  "key": {
-    "w" : {
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
       "item": "minecraft:water_bucket"
     },
-    "d": {
-      "item": "dragonaddons:dragon_spawn_egg"
+    {
+      "item": "dragonaddons:dragon_dry_egg_block"
     }
-  },
+  ],
   "result": {
-    "item": "dragonaddons:gold_dragon_fragment"
+    "item": "dragonaddons:dragon_spawn_egg"
   }
 }
