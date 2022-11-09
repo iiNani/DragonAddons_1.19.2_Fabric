@@ -3,6 +3,7 @@ package net.iiNani.dragonaddons.block;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.iiNani.dragonaddons.DragonAddons;
+import net.iiNani.dragonaddons.block.custom.IronwoodLog;
 import net.iiNani.dragonaddons.item.ModItemGroup;
 import net.minecraft.block.Block;
 import net.minecraft.block.Material;
@@ -15,6 +16,9 @@ import net.minecraft.util.registry.Registry;
 public class ModBlocks {
     public static final Block DRAGON_DRY_EGG_BLOCK = registerBlock("dragon_dry_egg_block",
             new Block(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()), ModItemGroup.LIME_DRAGON_FRAGMENT);
+
+    public static final Block IRONWOOD_LOG = registerBlock("ironwood_log",
+            new IronwoodLog(FabricBlockSettings.of(Material.WOOD).strength(2f)), ModItemGroup.LIME_DRAGON_FRAGMENT);
 
     private static Block registerBlock(String name, Block block, ItemGroup tab){
         registerBlockItem(name, block, tab);

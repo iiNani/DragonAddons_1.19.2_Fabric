@@ -43,6 +43,7 @@ public class ModItems{
     public static final Item ORANGE_DRAGON_SHARD = registerItem("orange_dragon_shard",
             new Item(new FabricItemSettings().group(ModItemGroup.LIME_DRAGON_FRAGMENT)));
 
+    // Miscellaneous Items
     public static final Item DRAGON_SPAWN_EGG = registerItem("dragon_spawn_egg",
             new SpawnEggItem(EntityType.ENDER_DRAGON, 65793, 9699539, new FabricItemSettings().group(ModItemGroup.LIME_DRAGON_FRAGMENT)));
 

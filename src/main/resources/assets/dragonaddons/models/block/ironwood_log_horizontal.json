@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "dragonaddons:block/ironwood_log_top",
+    "side": "dragonaddons:block/ironwood_log_side"
+  }
+}
