@@ -2,13 +2,13 @@ package net.iiNani.dragonaddons.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.iiNani.dragonaddons.DragonAddons;
+import net.iiNani.dragonaddons.item.material.LimeToolMaterial;
 import net.minecraft.entity.EntityType;
-import net.minecraft.item.Item;
-import net.minecraft.item.SpawnEggItem;
+import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
-public class ModItems{
+public class ModItems {
     // Dragon Fragments
     public static final Item NULL_DRAGON_FRAGMENT = registerItem("null_dragon_fragment",
             new Item(new FabricItemSettings().group(ModItemGroup.LIME_DRAGON_FRAGMENT)));
@@ -43,12 +43,20 @@ public class ModItems{
     public static final Item ORANGE_DRAGON_SHARD = registerItem("orange_dragon_shard",
             new Item(new FabricItemSettings().group(ModItemGroup.LIME_DRAGON_FRAGMENT)));
 
+    // Weapons and Tools
+    public static ToolItem LIME_DRAGON_SWORD = registerToolItem("lime_dragon_sword", new SwordItem(LimeToolMaterial.INSTANCE, 5, -2.4F,
+            new Item.Settings().group(ModItemGroup.LIME_DRAGON_FRAGMENT)));
+
     // Miscellaneous Items
     public static final Item DRAGON_SPAWN_EGG = registerItem("dragon_spawn_egg",
             new SpawnEggItem(EntityType.ENDER_DRAGON, 65793, 9699539, new FabricItemSettings().group(ModItemGroup.LIME_DRAGON_FRAGMENT)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(DragonAddons.MOD_ID, name), item);
+    }
+
+    private static ToolItem registerToolItem(String name, ToolItem toolItem) {
+        return Registry.register(Registry.ITEM, new Identifier(DragonAddons.MOD_ID, name), toolItem);
     }
 
     public static void RegisterModItems() {
