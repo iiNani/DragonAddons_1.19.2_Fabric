@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "ingredients": [
+    {
+      "item": "dragonaddons:ironwood_stripped_log"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "dragonaddons:ironwood_stripped_planks"
+  }
+}

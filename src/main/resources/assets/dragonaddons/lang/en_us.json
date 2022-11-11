@@ -19,5 +19,8 @@
   "item.dragonaddons.dragon_spawn_egg": "Dragon Spawn Egg",
 
   "block.dragonaddons.dragon_dry_egg_block": "Dragon Dry Egg Block",
-  "block.dragonaddons.ironwood_log": "Ironwood Log"
+  "block.dragonaddons.ironwood_log": "Ironwood Log",
+  "block.dragonaddons.ironwood_planks": "Ironwood Planks",
+  "block.dragonaddons.ironwood_stripped_planks": "Stripped Ironwood Planks",
+  "block.dragonaddons.ironwood_stripped_log": "Stripped Ironwood Log"
 }
