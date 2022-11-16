@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-
+    "dragonaddons:ironwood_log",
+    "dragonaddons:ironwood_stripped_log",
+    "dragonaddons:ironwood_planks",
+    "dragonaddons:ironwood_stripped_planks"
   ]
 }

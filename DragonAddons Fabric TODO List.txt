@@ -13,3 +13,6 @@ TO DO:
     12) Add custom loot
     13) Add new interactive blocks like the brewing stand called "Filterer", etc.
     14) Add custom fluids
+
+Temp:
+    1)  Add textures for all weapons and tools.

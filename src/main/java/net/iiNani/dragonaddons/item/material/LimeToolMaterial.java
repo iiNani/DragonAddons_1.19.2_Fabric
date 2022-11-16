@@ -13,7 +13,7 @@ public class LimeToolMaterial implements net.minecraft.item.ToolMaterial {
 
     @Override
     public float getMiningSpeedMultiplier() {
-        return 12;
+        return 20;
     }
 
     @Override

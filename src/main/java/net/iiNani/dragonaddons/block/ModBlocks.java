@@ -11,6 +11,7 @@ import net.minecraft.block.Material;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
+import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
@@ -18,13 +19,17 @@ public class ModBlocks {
     public static final Block DRAGON_DRY_EGG_BLOCK = registerBlock("dragon_dry_egg_block",
             new Block(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()), ModItemGroup.LIME_DRAGON_FRAGMENT);
     public static final Block IRONWOOD_LOG = registerBlock("ironwood_log",
-            new IronwoodLog(FabricBlockSettings.of(Material.WOOD).strength(2f)), ModItemGroup.LIME_DRAGON_FRAGMENT);
+            new IronwoodLog(FabricBlockSettings.of(Material.WOOD).strength(6f).sounds(BlockSoundGroup.WOOD)),
+            ModItemGroup.LIME_DRAGON_FRAGMENT);
     public static final Block IRONWOOD_PLANKS = registerBlock("ironwood_planks",
-            new Block(FabricBlockSettings.of(Material.WOOD).strength(2f)), ModItemGroup.LIME_DRAGON_FRAGMENT);
+            new Block(FabricBlockSettings.of(Material.WOOD).strength(6f).sounds(BlockSoundGroup.WOOD)),
+            ModItemGroup.LIME_DRAGON_FRAGMENT);
     public static final Block IRONWOOD_STRIPPED_PLANKS = registerBlock("ironwood_stripped_planks",
-            new Block(FabricBlockSettings.of(Material.WOOD).strength(2f)), ModItemGroup.LIME_DRAGON_FRAGMENT);
+            new Block(FabricBlockSettings.of(Material.WOOD).strength(6f).sounds(BlockSoundGroup.WOOD)),
+            ModItemGroup.LIME_DRAGON_FRAGMENT);
     public static final Block IRONWOOD_STRIPPED_LOG = registerStrippableBlock("ironwood_stripped_log", IRONWOOD_LOG,
-            new IronwoodLog(FabricBlockSettings.of(Material.WOOD).strength(2f)), ModItemGroup.LIME_DRAGON_FRAGMENT);
+            new IronwoodLog(FabricBlockSettings.of(Material.WOOD).strength(6f).sounds(BlockSoundGroup.WOOD)),
+            ModItemGroup.LIME_DRAGON_FRAGMENT);
 
 
     private static Block registerBlock(String name, Block block, ItemGroup tab){
