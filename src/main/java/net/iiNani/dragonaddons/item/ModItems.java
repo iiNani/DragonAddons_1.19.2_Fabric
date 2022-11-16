@@ -3,11 +3,15 @@ package net.iiNani.dragonaddons.item;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.iiNani.dragonaddons.DragonAddons;
 import net.iiNani.dragonaddons.item.custom.CustomAxeItem;
+import net.iiNani.dragonaddons.item.custom.CustomHoeItem;
+import net.iiNani.dragonaddons.item.custom.CustomPickaxeItem;
 import net.iiNani.dragonaddons.item.material.LimeToolMaterial;
 import net.minecraft.entity.EntityType;
 import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
+
+import javax.tools.Tool;
 
 public class ModItems {
     // Dragon Fragments
@@ -45,12 +49,22 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ModItemGroup.LIME_DRAGON_FRAGMENT)));
 
     // Weapons and Tools
-    public static ToolItem LIME_DRAGON_SWORD = registerToolItem("lime_dragon_sword",
-            new SwordItem(LimeToolMaterial.INSTANCE, 5, -1.8F,
-            new Item.Settings().group(ModItemGroup.LIME_DRAGON_FRAGMENT)));
-    public static ToolItem LIME_DRAGON_AXE = registerToolItem("lime_dragon_axe",
-            new CustomAxeItem(LimeToolMaterial.INSTANCE, 7, -2.2F,
-            new Item.Settings().group(ModItemGroup.LIME_DRAGON_FRAGMENT)));
+        // Lime Dragon Tools
+        public static ToolItem LIME_DRAGON_SWORD = registerToolItem("lime_dragon_sword",
+                new SwordItem(LimeToolMaterial.INSTANCE, 5, -1.8F,
+                new Item.Settings().group(ModItemGroup.LIME_DRAGON_FRAGMENT)));
+        public static ToolItem LIME_DRAGON_AXE = registerToolItem("lime_dragon_axe",
+                new CustomAxeItem(LimeToolMaterial.INSTANCE, 7, -2.2F,
+                new Item.Settings().group(ModItemGroup.LIME_DRAGON_FRAGMENT)));
+        public static ToolItem LIME_DRAGON_PICKAXE = registerToolItem("lime_dragon_pickaxe",
+                new CustomPickaxeItem(LimeToolMaterial.INSTANCE, 3, -2.8F,
+                new Item.Settings().group(ModItemGroup.LIME_DRAGON_FRAGMENT)));
+        public static ToolItem LIME_DRAGON_SHOVEL = registerToolItem("lime_dragon_shovel",
+                new ShovelItem(LimeToolMaterial.INSTANCE, 3, -3.0F,
+                new Item.Settings().group(ModItemGroup.LIME_DRAGON_FRAGMENT)));
+        public static ToolItem LIME_DRAGON_HOE = registerToolItem("lime_dragon_hoe",
+                new CustomHoeItem(LimeToolMaterial.INSTANCE, -8, 0.0F,
+                new Item.Settings().group(ModItemGroup.LIME_DRAGON_FRAGMENT)));
 
     // Miscellaneous Items
     public static final Item DRAGON_SPAWN_EGG = registerItem("dragon_spawn_egg",

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "l",
+    "s",
+    "s"
+  ],
+  "key": {
+    "l" : {
+      "item": "dragonaddons:lime_dragon_fragment"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "dragonaddons:lime_dragon_shovel"
+  }
+}
