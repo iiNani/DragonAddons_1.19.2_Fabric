@@ -18,9 +18,7 @@ Temp:
     1)  Add textures for all weapons and tools
 
 Speciality for armor and tools:
-    Lime Tools: Fastest, lower durability
-    Gold Tools: Have a lot more durability
-    Gray Tools: Have a lot of durability and boosted damage, enchanted with Reinforcement (Boosts durability)
+    Gray Tools: Enchanted with Reinforcement (Boosts durability)
     Blue Tools: Highest enchantability, can be enchanted with every enchantment available to other tools
     Purple Tools: Boosted efficiency stat and can be enchanted with Thundering
     Red Tools: Highest attack damage, but lower speed, moderate durability
