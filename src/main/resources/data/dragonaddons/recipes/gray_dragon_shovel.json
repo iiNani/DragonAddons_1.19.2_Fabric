@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "g",
+    "s",
+    "s"
+  ],
+  "key": {
+    "g" : {
+      "item": "dragonaddons:gray_dragon_fragment"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "dragonaddons:gray_dragon_shovel"
+  }
+}
