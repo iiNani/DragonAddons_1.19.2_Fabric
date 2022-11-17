@@ -67,6 +67,7 @@ public class ModItems {
         public static ToolItem LIME_DRAGON_HOE = registerToolItem("lime_dragon_hoe",
                 new CustomHoeItem(LimeToolMaterial.INSTANCE, -9, 0.0F,
                 new Item.Settings().group(ModItemGroup.LIME_DRAGON_FRAGMENT)));
+
         // Gold Dragon Tools
         public static ToolItem GOLD_DRAGON_SWORD = registerToolItem("gold_dragon_sword",
                 new SwordItem(GoldToolMaterial.INSTANCE, 5, -2.4F,
@@ -83,6 +84,7 @@ public class ModItems {
         public static ToolItem GOLD_DRAGON_HOE = registerToolItem("gold_dragon_hoe",
                 new CustomHoeItem(GoldToolMaterial.INSTANCE, -14, 0.0F,
                 new Item.Settings().group(ModItemGroup.LIME_DRAGON_FRAGMENT)));
+
         // Gray Dragon Tools
         public static ToolItem GRAY_DRAGON_SWORD = registerToolItem("gray_dragon_sword",
                 new SwordItem(GrayToolMaterial.INSTANCE, 5, -2.4F,
