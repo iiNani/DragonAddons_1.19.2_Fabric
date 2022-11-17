@@ -16,3 +16,20 @@ TO DO:
 
 Temp:
     1)  Add textures for all weapons and tools
+
+Speciality for armor and tools:
+    Lime Tools: Fastest, lower durability
+    Gold Tools: Have a lot more durability
+    Gray Tools: Have a lot of durability and boosted damage, enchanted with Reinforcement (Boosts durability)
+    Blue Tools: Highest enchantability, can be enchanted with every enchantment available to other tools
+    Purple Tools: Boosted efficiency stat and can be enchanted with Thundering
+    Red Tools: Highest attack damage, but lower speed, moderate durability
+    Orange Tools: Mix of every tool in the game, no weaknesses
+
+    Lime Armor: Permanent Speed boost, mild health boost
+    Gold Armor: Permanent Slowness debuff, extreme health boost
+    Gray Armor: No buff or debuff, extreme armor boost
+    Blue Armor: gives mild speed, night vision, health boost, and water breathing, but also gives mild hunger
+    Purple Armor: Decent Speed Boost, night vision, decent health boost, and access to special enchants like boost
+    Red Armor: Extreme strength boost, slight slowness, and mild resistance
+    Orange Armor: Decent Speed, Health, Armor, Resistance, and Strength boost. No weaknesses and also can use any enchantment available to the previous armors.
