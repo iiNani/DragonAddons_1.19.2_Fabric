@@ -1,18 +1,17 @@
 TO DO:
     1)  Add tools, weapons (not including bows), and armor for all tiers of dragon
-    2)  Add crafting recipes to make dragon fragments and their specific tiers
-    3)  Add crafting recipes to make a specific Tiered Dragon Spawn Egg
-    4)  Add new blocks
-    5)  Add new enchantments
-    6)  Add custom villagers
-    7)  Add custom mobs (non-boss mobs)
-    8)  Add new dimension
-    9)  Add boss mobs (All dragons and some others)
-    10) Add ores for new tools and weapons
-    11) Add new structures
-    12) Add custom loot
-    13) Add new interactive blocks like the brewing stand called "Filterer", etc.
-    14) Add custom fluids
+    2)  Add crafting recipes to make a specific Tiered Dragon Spawn Egg
+    3)  Add new blocks
+    4)  Add new enchantments
+    5)  Add custom villagers
+    6)  Add custom mobs (non-boss mobs)
+    7)  Add new dimension
+    8)  Add boss mobs (All dragons and some others)
+    9)  Add ores for new tools and weapons
+    10) Add new structures
+    11) Add custom loot
+    12) Add new interactive blocks like the brewing stand called "Filterer", etc.
+    13) Add custom fluids
 
 Temp:
     1)  Add textures for all weapons and tools
