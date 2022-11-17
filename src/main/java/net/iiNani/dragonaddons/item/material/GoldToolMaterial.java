@@ -4,22 +4,22 @@ import net.iiNani.dragonaddons.item.ModItems;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
-public class LimeToolMaterial implements ToolMaterial {
-    public static final LimeToolMaterial INSTANCE = new LimeToolMaterial();
+public class GoldToolMaterial implements ToolMaterial {
+    public static final GoldToolMaterial INSTANCE = new GoldToolMaterial();
 
     @Override
     public int getDurability() {
-        return 3432;
+        return 6078;
     }
 
     @Override
     public float getMiningSpeedMultiplier() {
-        return 20;
+        return 16;
     }
 
     @Override
     public float getAttackDamage() {
-        return 9;
+        return 14;
     }
 
     @Override
@@ -29,11 +29,11 @@ public class LimeToolMaterial implements ToolMaterial {
 
     @Override
     public int getEnchantability() {
-        return 14;
+        return 16;
     }
 
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(ModItems.LIME_DRAGON_FRAGMENT);
+        return Ingredient.ofItems(ModItems.GOLD_DRAGON_FRAGMENT);
     }
 }

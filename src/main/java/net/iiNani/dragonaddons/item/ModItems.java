@@ -5,6 +5,7 @@ import net.iiNani.dragonaddons.DragonAddons;
 import net.iiNani.dragonaddons.item.custom.CustomAxeItem;
 import net.iiNani.dragonaddons.item.custom.CustomHoeItem;
 import net.iiNani.dragonaddons.item.custom.CustomPickaxeItem;
+import net.iiNani.dragonaddons.item.material.GoldToolMaterial;
 import net.iiNani.dragonaddons.item.material.LimeToolMaterial;
 import net.minecraft.entity.EntityType;
 import net.minecraft.item.*;
@@ -64,6 +65,22 @@ public class ModItems {
                 new Item.Settings().group(ModItemGroup.LIME_DRAGON_FRAGMENT)));
         public static ToolItem LIME_DRAGON_HOE = registerToolItem("lime_dragon_hoe",
                 new CustomHoeItem(LimeToolMaterial.INSTANCE, -8, 0.0F,
+                new Item.Settings().group(ModItemGroup.LIME_DRAGON_FRAGMENT)));
+        // Gold Dragon Tools
+        public static ToolItem GOLD_DRAGON_SWORD = registerToolItem("gold_dragon_sword",
+                new SwordItem(GoldToolMaterial.INSTANCE, 5, -2.4F,
+                new Item.Settings().group(ModItemGroup.LIME_DRAGON_FRAGMENT)));
+        public static ToolItem GOLD_DRAGON_AXE = registerToolItem("gold_dragon_axe",
+                new CustomAxeItem(GoldToolMaterial.INSTANCE, 7, -3.0F,
+                new Item.Settings().group(ModItemGroup.LIME_DRAGON_FRAGMENT)));
+        public static ToolItem GOLD_DRAGON_PICKAXE = registerToolItem("gold_dragon_pickaxe",
+                new CustomPickaxeItem(GoldToolMaterial.INSTANCE, 3, -2.8F,
+                new Item.Settings().group(ModItemGroup.LIME_DRAGON_FRAGMENT)));
+        public static ToolItem GOLD_DRAGON_SHOVEL = registerToolItem("gold_dragon_shovel",
+                new ShovelItem(GoldToolMaterial.INSTANCE, 3, -3.0F,
+                new Item.Settings().group(ModItemGroup.LIME_DRAGON_FRAGMENT)));
+        public static ToolItem GOLD_DRAGON_HOE = registerToolItem("gold_dragon_hoe",
+                new CustomHoeItem(GoldToolMaterial.INSTANCE, -8, 0.0F,
                 new Item.Settings().group(ModItemGroup.LIME_DRAGON_FRAGMENT)));
 
     // Miscellaneous Items
