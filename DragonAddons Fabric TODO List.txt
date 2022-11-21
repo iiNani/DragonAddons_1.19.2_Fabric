@@ -16,6 +16,23 @@ TO DO:
 Temp:
     1)  Add textures for all weapons and tools
 
+Dragons:
+    1) Base MC dragon has a VERY small chance of dropping the shards and drops a minumum of 5 null dragon fragments, with a
+       bonus of up to 5
+    2) Lime Dragon has a lot of speed, and you need a new enchant called Dragon Tracer to hit it properly. Drops a minimum of 10
+       lime dragon shards, with a bonus of up to 4
+    3) Gold Dragon has a lot of health. Drops a minimum of 10 gold dragon shards, with a bonus of up to 4
+    4) Gray Dragon has a lot of defence. Needs a new enchantment called armor piercer to do good damage. Drops a minimum of 10
+       gray dragon shards, with a bonus of up to 4
+    5) Blue Dragon has slightly boosted health and speed. Has a rare chance to drop a Selected Enchantment Table. Drops a
+       minimum of 10 blue dragon shards, with a bonus of up to 4
+    6) Purple Dragon has a new fireball and lightning ability, and boosted speed. Drops a minimum of 10 purple dragon shards,
+       with a bonus of up to 4
+    7) Red Dragon has a charge attack and has increased damage and also has the same fireball and lightning attack as the
+       Purple Dragon. Drops a minimum of 10 purple dragon shards, with a bonus of up to 4
+    8) Orange Dragon has the abilities of all the previous dragons, just toned down. Drops a minimum of 10 orange dragon
+       shards, with a bonus of up to 4
+
 Speciality for armor and tools:
     Gray Tools: Enchanted with Reinforcement (Boosts durability)
     Blue Tools: Highest enchantability, can be enchanted with every enchantment available to other tools
