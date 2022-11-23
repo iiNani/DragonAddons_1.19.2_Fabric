@@ -5,6 +5,7 @@ import net.iiNani.dragonaddons.DragonAddons;
 import net.iiNani.dragonaddons.item.custom.CustomAxeItem;
 import net.iiNani.dragonaddons.item.custom.CustomHoeItem;
 import net.iiNani.dragonaddons.item.custom.CustomPickaxeItem;
+import net.iiNani.dragonaddons.item.material.BlueToolMaterial;
 import net.iiNani.dragonaddons.item.material.GoldToolMaterial;
 import net.iiNani.dragonaddons.item.material.GrayToolMaterial;
 import net.iiNani.dragonaddons.item.material.LimeToolMaterial;
@@ -12,8 +13,6 @@ import net.minecraft.entity.EntityType;
 import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
-
-import javax.tools.Tool;
 
 public class ModItems {
     // Dragon Fragments
@@ -100,6 +99,23 @@ public class ModItems {
                 new Item.Settings().group(ModItemGroup.LIME_DRAGON_FRAGMENT)));
         public static ToolItem GRAY_DRAGON_HOE = registerToolItem("gray_dragon_hoe",
                 new CustomHoeItem(GrayToolMaterial.INSTANCE, -19, 0.0F,
+                new Item.Settings().group(ModItemGroup.LIME_DRAGON_FRAGMENT)));
+
+        // Blue Dragon Tools
+        public static ToolItem BLUE_DRAGON_SWORD = registerToolItem("blue_dragon_sword",
+                new SwordItem(BlueToolMaterial.INSTANCE, 5, -2.4F,
+                new Item.Settings().group(ModItemGroup.LIME_DRAGON_FRAGMENT)));
+        public static ToolItem BLUE_DRAGON_AXE = registerToolItem("blue_dragon_axe",
+                new CustomAxeItem(BlueToolMaterial.INSTANCE, 7, -3.0F,
+                new Item.Settings().group(ModItemGroup.LIME_DRAGON_FRAGMENT)));
+        public static ToolItem BLUE_DRAGON_PICKAXE = registerToolItem("blue_dragon_pickaxe",
+                new CustomPickaxeItem(BlueToolMaterial.INSTANCE, 3, -2.8F,
+                new Item.Settings().group(ModItemGroup.LIME_DRAGON_FRAGMENT)));
+        public static ToolItem BLUE_DRAGON_SHOVEL = registerToolItem("blue_dragon_shovel",
+                new ShovelItem(BlueToolMaterial.INSTANCE, 3, -3.0F,
+                new Item.Settings().group(ModItemGroup.LIME_DRAGON_FRAGMENT)));
+        public static ToolItem BLUE_DRAGON_HOE = registerToolItem("blue_dragon_hoe",
+                new CustomHoeItem(BlueToolMaterial.INSTANCE, -19, 0.0F,
                 new Item.Settings().group(ModItemGroup.LIME_DRAGON_FRAGMENT)));
 
 

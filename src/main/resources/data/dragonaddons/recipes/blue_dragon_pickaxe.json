@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "bbb",
+    " s ",
+    " s "
+  ],
+  "key": {
+    "b" : {
+      "item": "dragonaddons:blue_dragon_fragment"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "dragonaddons:blue_dragon_pickaxe"
+  }
+}
