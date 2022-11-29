@@ -5,10 +5,7 @@ import net.iiNani.dragonaddons.DragonAddons;
 import net.iiNani.dragonaddons.item.custom.CustomAxeItem;
 import net.iiNani.dragonaddons.item.custom.CustomHoeItem;
 import net.iiNani.dragonaddons.item.custom.CustomPickaxeItem;
-import net.iiNani.dragonaddons.item.material.BlueToolMaterial;
-import net.iiNani.dragonaddons.item.material.GoldToolMaterial;
-import net.iiNani.dragonaddons.item.material.GrayToolMaterial;
-import net.iiNani.dragonaddons.item.material.LimeToolMaterial;
+import net.iiNani.dragonaddons.item.material.*;
 import net.minecraft.entity.EntityType;
 import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
@@ -115,7 +112,24 @@ public class ModItems {
                 new ShovelItem(BlueToolMaterial.INSTANCE, 3, -3.0F,
                 new Item.Settings().group(ModItemGroup.LIME_DRAGON_FRAGMENT)));
         public static ToolItem BLUE_DRAGON_HOE = registerToolItem("blue_dragon_hoe",
-                new CustomHoeItem(BlueToolMaterial.INSTANCE, -19, 0.0F,
+                new CustomHoeItem(BlueToolMaterial.INSTANCE, -24, 0.0F,
+                new Item.Settings().group(ModItemGroup.LIME_DRAGON_FRAGMENT)));
+
+        // Purple Dragon Tools
+        public static ToolItem PURPLE_DRAGON_SWORD = registerToolItem("purple_dragon_sword",
+                new SwordItem(PurpleToolMaterial.INSTANCE, 5, -2.4F,
+                new Item.Settings().group(ModItemGroup.LIME_DRAGON_FRAGMENT)));
+        public static ToolItem PURPLE_DRAGON_AXE = registerToolItem("purple_dragon_axe",
+                new CustomAxeItem(PurpleToolMaterial.INSTANCE, 7, -3.0F,
+                new Item.Settings().group(ModItemGroup.LIME_DRAGON_FRAGMENT)));
+        public static ToolItem PURPLE_DRAGON_PICKAXE = registerToolItem("purple_dragon_pickaxe",
+                new CustomPickaxeItem(PurpleToolMaterial.INSTANCE, 3, -2.8F,
+                new Item.Settings().group(ModItemGroup.LIME_DRAGON_FRAGMENT)));
+        public static ToolItem PURPLE_DRAGON_SHOVEL = registerToolItem("purple_dragon_shovel",
+                new ShovelItem(PurpleToolMaterial.INSTANCE, 3, -3.0F,
+                new Item.Settings().group(ModItemGroup.LIME_DRAGON_FRAGMENT)));
+        public static ToolItem PURPLE_DRAGON_HOE = registerToolItem("purple_dragon_hoe",
+                new CustomHoeItem(PurpleToolMaterial.INSTANCE, -29, 0.0F,
                 new Item.Settings().group(ModItemGroup.LIME_DRAGON_FRAGMENT)));
 
 

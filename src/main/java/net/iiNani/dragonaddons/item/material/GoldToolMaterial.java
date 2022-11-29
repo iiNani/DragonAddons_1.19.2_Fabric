@@ -9,7 +9,7 @@ public class GoldToolMaterial implements ToolMaterial {
 
     @Override
     public int getDurability() {
-        return 6078;
+        return 8078;
     }
 
     @Override

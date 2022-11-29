@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "p",
+    "s",
+    "s"
+  ],
+  "key": {
+    "p" : {
+      "item": "dragonaddons:purple_dragon_fragment"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "dragonaddons:purple_dragon_shovel"
+  }
+}
