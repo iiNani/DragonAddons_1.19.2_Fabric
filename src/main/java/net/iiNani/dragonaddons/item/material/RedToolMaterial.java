@@ -4,22 +4,22 @@ import net.iiNani.dragonaddons.item.ModItems;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
-public class PurpleToolMaterial implements ToolMaterial {
-    public static final PurpleToolMaterial INSTANCE = new PurpleToolMaterial();
+public class RedToolMaterial implements ToolMaterial {
+    public static final RedToolMaterial INSTANCE = new RedToolMaterial();
 
     @Override
     public int getDurability() {
-        return 6647;
+        return 7619;
     }
 
     @Override
     public float getMiningSpeedMultiplier() {
-        return 26;
+        return 14;
     }
 
     @Override
     public float getAttackDamage() {
-        return 29;
+        return 50;
     }
 
     @Override
@@ -29,11 +29,11 @@ public class PurpleToolMaterial implements ToolMaterial {
 
     @Override
     public int getEnchantability() {
-        return 20;
+        return 22;
     }
 
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(ModItems.PURPLE_DRAGON_FRAGMENT);
+        return Ingredient.ofItems(ModItems.RED_DRAGON_FRAGMENT);
     }
 }

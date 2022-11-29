@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "rr",
+    "sr",
+    "s "
+  ],
+  "key": {
+    "r" : {
+      "item": "dragonaddons:red_dragon_fragment"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "dragonaddons:red_dragon_axe"
+  }
+}
