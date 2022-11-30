@@ -148,6 +148,23 @@ public class ModItems {
         public static ToolItem RED_DRAGON_HOE = registerToolItem("red_dragon_hoe",
                 new CustomHoeItem(RedToolMaterial.INSTANCE, -46, 0.0F,
                 new Item.Settings().group(ModItemGroup.LIME_DRAGON_SWORD)));
+        
+        // Orange Dragon Tools
+        public static ToolItem ORANGE_DRAGON_SWORD = registerToolItem("orange_dragon_sword",
+                new SwordItem(OrangeToolMaterial.INSTANCE, 5, -1.8F,
+                new Item.Settings().group(ModItemGroup.LIME_DRAGON_SWORD)));
+        public static ToolItem ORANGE_DRAGON_AXE = registerToolItem("orange_dragon_axe",
+                new CustomAxeItem(OrangeToolMaterial.INSTANCE, 7, -2.2F,
+                new Item.Settings().group(ModItemGroup.LIME_DRAGON_SWORD)));
+        public static ToolItem ORANGE_DRAGON_PICKAXE = registerToolItem("orange_dragon_pickaxe",
+                new CustomPickaxeItem(OrangeToolMaterial.INSTANCE, 3, -2.8F, 
+                new Item.Settings().group(ModItemGroup.LIME_DRAGON_SWORD)));
+        public static ToolItem ORANGE_DRAGON_SHOVEL = registerToolItem("orange_dragon_shovel",
+                new ShovelItem(OrangeToolMaterial.INSTANCE, 3, -3.0F,
+                new Item.Settings().group(ModItemGroup.LIME_DRAGON_SWORD)));
+        public static ToolItem ORANGE_DRAGON_HOE = registerToolItem("orange_dragon_hoe",
+                new CustomHoeItem(OrangeToolMaterial.INSTANCE, -47, 0.0F,
+                new Item.Settings().group(ModItemGroup.LIME_DRAGON_SWORD)));
 
 
     // Miscellaneous Items

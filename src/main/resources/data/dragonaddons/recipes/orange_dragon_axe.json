@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "oo",
+    "so",
+    "s "
+  ],
+  "key": {
+    "o" : {
+      "item": "dragonaddons:orange_dragon_fragment"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "dragonaddons:orange_dragon_axe"
+  }
+}
