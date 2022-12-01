@@ -24,7 +24,7 @@ public class RedToolMaterial implements ToolMaterial {
 
     @Override
     public int getMiningLevel() {
-        return 4;
+        return 10;
     }
 
     @Override

@@ -24,7 +24,7 @@ public class GoldToolMaterial implements ToolMaterial {
 
     @Override
     public int getMiningLevel() {
-        return 4;
+        return 6;
     }
 
     @Override

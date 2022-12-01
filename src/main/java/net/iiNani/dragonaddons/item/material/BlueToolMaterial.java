@@ -24,7 +24,7 @@ public class BlueToolMaterial implements ToolMaterial {
 
     @Override
     public int getMiningLevel() {
-        return 4;
+        return 8;
     }
 
     @Override

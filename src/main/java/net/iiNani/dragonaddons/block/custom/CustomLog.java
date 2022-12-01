@@ -10,10 +10,10 @@ import net.minecraft.state.property.Property;
 import net.minecraft.util.BlockRotation;
 import net.minecraft.util.math.Direction;
 
-public class IronwoodLog extends Block{
+public class CustomLog extends Block{
     public static final EnumProperty<Direction.Axis> AXIS;
 
-    public IronwoodLog(Settings settings) {
+    public CustomLog(Settings settings) {
         super(settings);
         this.setDefaultState((BlockState)this.getDefaultState().with(AXIS, Direction.Axis.Y));
     }

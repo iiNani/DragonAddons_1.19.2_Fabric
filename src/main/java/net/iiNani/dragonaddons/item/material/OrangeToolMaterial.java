@@ -24,7 +24,7 @@ public class OrangeToolMaterial implements ToolMaterial {
 
     @Override
     public int getMiningLevel() {
-        return 4;
+        return 11;
     }
 
     @Override

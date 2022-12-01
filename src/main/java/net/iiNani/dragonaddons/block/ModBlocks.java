@@ -4,7 +4,7 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
 import net.iiNani.dragonaddons.DragonAddons;
-import net.iiNani.dragonaddons.block.custom.IronwoodLog;
+import net.iiNani.dragonaddons.block.custom.CustomLog;
 import net.iiNani.dragonaddons.item.ModItemGroup;
 import net.minecraft.block.Block;
 import net.minecraft.block.Material;
@@ -20,7 +20,7 @@ public class ModBlocks {
             new Block(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()),
             ModItemGroup.DRAGON_DRY_EGG_BLOCK);
     public static final Block IRONWOOD_LOG = registerBlock("ironwood_log",
-            new IronwoodLog(FabricBlockSettings.of(Material.WOOD).strength(6f).sounds(BlockSoundGroup.WOOD)),
+            new CustomLog(FabricBlockSettings.of(Material.WOOD).strength(6f).sounds(BlockSoundGroup.WOOD)),
             ModItemGroup.DRAGON_DRY_EGG_BLOCK);
     public static final Block IRONWOOD_PLANKS = registerBlock("ironwood_planks",
             new Block(FabricBlockSettings.of(Material.WOOD).strength(6f).sounds(BlockSoundGroup.WOOD)),
@@ -29,7 +29,7 @@ public class ModBlocks {
             new Block(FabricBlockSettings.of(Material.WOOD).strength(6f).sounds(BlockSoundGroup.WOOD)),
             ModItemGroup.DRAGON_DRY_EGG_BLOCK);
     public static final Block IRONWOOD_STRIPPED_LOG = registerStrippableBlock("ironwood_stripped_log", IRONWOOD_LOG,
-            new IronwoodLog(FabricBlockSettings.of(Material.WOOD).strength(6f).sounds(BlockSoundGroup.WOOD)),
+            new CustomLog(FabricBlockSettings.of(Material.WOOD).strength(6f).sounds(BlockSoundGroup.WOOD)),
             ModItemGroup.DRAGON_DRY_EGG_BLOCK);
 
 

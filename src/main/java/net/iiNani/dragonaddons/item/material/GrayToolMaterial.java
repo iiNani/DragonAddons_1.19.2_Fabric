@@ -24,7 +24,7 @@ public class GrayToolMaterial implements ToolMaterial {
 
     @Override
     public int getMiningLevel() {
-        return 4;
+        return 7;
     }
 
     @Override

@@ -24,7 +24,7 @@ public class PurpleToolMaterial implements ToolMaterial {
 
     @Override
     public int getMiningLevel() {
-        return 4;
+        return 9;
     }
 
     @Override
