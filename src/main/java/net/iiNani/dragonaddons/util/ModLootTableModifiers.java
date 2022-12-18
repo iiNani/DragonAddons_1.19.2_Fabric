@@ -2,17 +2,13 @@ package net.iiNani.dragonaddons.util;
 
 import net.fabricmc.fabric.api.loot.v2.LootTableEvents;
 import net.iiNani.dragonaddons.item.ModItems;
-import net.minecraft.item.Item;
 import net.minecraft.loot.LootPool;
-import net.minecraft.loot.condition.MatchToolLootCondition;
 import net.minecraft.loot.condition.RandomChanceLootCondition;
 import net.minecraft.loot.entry.ItemEntry;
 import net.minecraft.loot.function.SetCountLootFunction;
 import net.minecraft.loot.provider.number.ConstantLootNumberProvider;
 import net.minecraft.loot.provider.number.UniformLootNumberProvider;
-import net.minecraft.predicate.item.ItemPredicate;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.dynamic.Range;
 
 public class ModLootTableModifiers {
     private static final Identifier DRAGON_ID

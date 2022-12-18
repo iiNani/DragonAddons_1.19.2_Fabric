@@ -19,6 +19,9 @@ public class ModBlocks {
     public static final Block DRAGON_DRY_EGG_BLOCK = registerBlock("dragon_dry_egg_block",
             new Block(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()),
             ModItemGroup.DRAGON_DRY_EGG_BLOCK);
+    public static final Block ENDSTONE_DRAGON_DRY_EGG_BLOCK = registerBlock("endstone_dragon_dry_egg_block",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()),
+            ModItemGroup.DRAGON_DRY_EGG_BLOCK);
     public static final Block IRONWOOD_LOG = registerBlock("ironwood_log",
             new CustomLog(FabricBlockSettings.of(Material.WOOD).strength(6f).sounds(BlockSoundGroup.WOOD)),
             ModItemGroup.DRAGON_DRY_EGG_BLOCK);
